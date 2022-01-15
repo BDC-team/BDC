@@ -1,0 +1,100 @@
+.wrapper{
+    footer{
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width:799px) {
+            height: auto;
+        }
+        flex-direction: column;
+        height: 120px;
+        max-height: 800px;
+        box-shadow: 0px -7px 8px 0px rgba(34, 60, 80, 0.2);
+        margin-top: 25px;
+        .footer__nav{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            @media screen and (min-width:800px) {
+                flex-direction: row;
+            }
+            flex-direction: column;
+            list-style-type: none;
+            .footer__nav.list{
+                padding: 25px 0;
+                @media screen and (min-width:800px) {
+                    padding: 0 15px;
+                }
+                a{
+                    font-size: 17px;
+                    color: #222222;
+                    text-decoration: none;
+                    &.instagram{
+                        display: block;
+                        background: url(../../../assets/images/instagram.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &.github{
+                        display: block;
+                        background: url(../../../assets/images/github.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &.dribble{
+                        display: block;
+                        background: url(../../../assets/images/dribble.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }    
+        .footer__nav-upper{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: row;
+            list-style-type: none;
+            .footer__nav.list{
+                padding: 0 15px ;
+                a{
+                    font-size: 17px;
+                    color: #222222;
+                    text-decoration: none;
+                    &.instagram{
+                        display: block;
+                        background: url(../../../assets/images/instagram.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &.github{
+                        display: block;
+                        background: url(../../../assets/images/github.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &.dribble{
+                        display: block;
+                        background: url(../../../assets/images/dribble.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
